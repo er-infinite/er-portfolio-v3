@@ -1,0 +1,155 @@
+.portfolio-blue{
+  background-color: $theme-blue;
+}
+
+.section-red{
+
+}
+
+.knewave-1{
+  font-family: 'Knewave', cursive;
+  font-size: 32px;
+  color: #8F8F8F;
+  text-transform: uppercase;
+  border-top: 10px dotted $theme-red;
+  border-bottom: 10px dotted $theme-red;
+}
+
+.knewave-2{
+  font-family: 'Knewave', cursive;
+  font-size: 32px;
+  color: #8F8F8F;
+  text-transform: uppercase;
+  border-top: 10px dotted $theme-yellow;
+  border-bottom: 10px dotted $theme-yellow;
+}
+
+.knewave-3{
+  font-family: 'Knewave', cursive;
+  font-size: 32px;
+  color: #8F8F8F;
+  text-transform: uppercase;
+  border-top: 10px dotted $theme-green;
+  border-bottom: 10px dotted $theme-green;
+}
+
+.work-block-1{
+  // display: block;
+  // background-color: $theme-primary;
+  display: block;
+  object-fit: cover;
+}
+
+.highlight-text{
+  display:block;
+  background-color: $theme-blue;
+  line-height: 2.5rem;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.3em;
+  color: #8F8F8F;
+  font-weight: light;
+}
+
+.robotomono{
+  font-family: 'Roboto Mono', monospace;
+}
+
+.about-subheading{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 22px;
+}
+
+.section-title{
+  display: block;
+  background-color: $theme-red;
+}
+
+.highlight-text-work{
+  // padding:;
+  background-color: $theme-blue
+  line-height:3.0rem;
+}
+
+.section-title h3{
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.5rem;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #8F8F8F;
+  align-items: center;
+}
+
+.about-me{
+  display:block;
+  padding: 10px;
+  background-color: $theme-blue
+}
+
+
+
+.bg-red {
+    background: $theme-red;
+    background: -webkit-linear-gradient($theme-red, darken($theme-red, 5%));
+    background: linear-gradient($theme-red, darken($theme-red, 5%));
+}
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+
+.text-red{
+  color: $theme-red;
+}
