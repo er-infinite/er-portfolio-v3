@@ -442,6 +442,12 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   background-color: #E3FAFF;
 }
 
+.fill img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 215px;
+}
+
 .hovereffect {
   width: 100%;
   height: 100%;
@@ -465,7 +471,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
   -webkit-transform: scale(0, 1);
   transform: scale(0, 1);
-  padding: 1.5em .5em;
+  padding: 1.2em 1em;
 }
 
 .hovereffect:hover .overlay {

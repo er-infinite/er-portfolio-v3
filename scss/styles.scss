@@ -9,7 +9,15 @@
 
 }
 
-// Work
+// Work SECTION
+
+//Fits image in div container
+.fill img{
+  object-fit: cover;
+  height: 215px;
+}
+
+
 .hovereffect {
   width: 100%;
   height: 100%;
@@ -34,7 +42,7 @@
   // -webkit-transform: scale(0,1);
   -ms-transform: scale(0,1);
   transform: scale(0,1);
-  padding: 1.5em .5em;
+  padding: 1.2em 1em;
 }
 
 .hovereffect:hover .overlay {
